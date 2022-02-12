@@ -1,6 +1,10 @@
 node_modules/
 dist/
 NetscriptDefinitions.d.ts
-.vscode/settings.json
+.vscode/
 package.json
 package-lock.json
+.elintrc.js
+global.d.ts
+tsconfig.json
+updateDefs.js
