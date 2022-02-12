@@ -6,7 +6,7 @@ import { NS } from '@ns'
 
 export async function main(ns : NS) : Promise<void> {
     
-    await ns.run('test_tests.js', 1)   
+    await ns.run('tests/test_tests.js', 1)   
     
     
 }

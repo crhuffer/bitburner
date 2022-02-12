@@ -3,7 +3,7 @@
  */
 
 import { NS } from "@ns";
-import { assert } from "assert.js";
+import { assert } from "tests/assert.js";
 import { now, timedelta, returnstringdatetime } from "timer.js";
 
 export async function main(ns: NS): Promise<[number, number]> {
