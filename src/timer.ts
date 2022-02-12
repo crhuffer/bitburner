@@ -2,7 +2,7 @@
  * Contains date and time utilities including timing.
  */
 
-export async function now() : Promise<string> {
+export async function now() : Promise<Date> {
     const dateTime = new Date();
     return dateTime
 }

@@ -10,7 +10,7 @@ export async function main(ns : NS) : Promise<void> {
     const counterPassed = 0;
     const counterTotal = 0;
     
-    const returnValue = assert('Assert passes with ones', 1, 1, true, ns);
+    const returnValue = assert('Assert passes with ones', '1', '1', true, ns);
 
     ns.tprint(counterPassed, counterTotal, returnValue)
 
